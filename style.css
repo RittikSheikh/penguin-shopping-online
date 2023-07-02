@@ -30,12 +30,13 @@ body {
 }
 
 .header{
-    background: #FFF9F4;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
 }
 
 .hero{
     background: #FFF9F4;
-    padding: 100px 80px;
+    padding: 150px 80px;
 }
 
 .hero h2 {
@@ -62,6 +63,20 @@ body {
     color: white;
     border-radius: 10px;
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+.hero svg{
+    width: 24px;
+    height: 24px;
+}
+
+.hero button:hover{
+    color: #FA804C;
+    font-weight: 500;
+}
+
+.abs-img{
+    margin-left: 300px;
 }
 
 @media screen and (max-width: 500px) {

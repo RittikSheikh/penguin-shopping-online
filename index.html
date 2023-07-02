@@ -55,7 +55,8 @@
   </header>
 
   <main>
-    <section class="hero container">
+    <section class="hero container position-relative">
+      <img class="w-25 position-absolute top-0 abs-img" src="./images/hero-bg.png" alt="">
       <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center align-items-center gap-5">
           <img class="img-fluid col" src="./images/Group 33092.png" alt="">
         <div class="col">
@@ -63,7 +64,12 @@
             Infinity Run 2</h2>
             <p>Lorem Ipsum is simply dummy text of the printing 
               and typesetting industry.</p>
-              <button class="btn hero-btn">Buy Now</button>
+              <button class="btn hero-btn d-flex justify-content-center align-items-center gap-1 hover:text-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                </svg>
+                <span>Buy Now</span>
+              </button>
         </div>
       </div>
     </section>
