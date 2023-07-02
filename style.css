@@ -21,7 +21,7 @@ body {
     font-weight: 500;
 }
 
-.header ul li{
+.header ul li {
     margin-right: 55px;
 }
 
@@ -29,12 +29,12 @@ body {
     width: 507px;
 }
 
-.header{
+.header {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
 }
 
-.hero{
+.hero {
     background: #FFF9F4;
     padding: 150px 80px;
 }
@@ -65,18 +65,64 @@ body {
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
 }
 
-.hero svg{
+.hero svg {
     width: 24px;
     height: 24px;
 }
 
-.hero button:hover{
+.hero button:hover {
     color: #FA804C;
     font-weight: 500;
 }
 
-.abs-img{
+.abs-img {
     margin-left: 300px;
+}
+
+.shoes-container {
+    margin: 100px 0;
+}
+
+.shoes-container h2 {
+    color: #363958;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.main-col {
+    width: 370px;
+    height: 540px;
+}
+
+.main-col h5 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.main-col p {
+    width: 280px;
+    margin: 10px 0;
+}
+
+.main-col h3 {
+    color: #FA804C;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.marisang {
+    width: 24px;
+    height: 24px;
+}
+
+.img-bg {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    width: 310px;
+    height: 310px;
+    margin: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -89,12 +135,16 @@ body {
         height: 25px;
     }
 
-    .hero{
+    .hero {
         padding: 80px 10px;
     }
 
     .hero h2 {
         font-size: 44px;
+    }
+
+    .shoes-container h2 {
+        font-size: 34px;
     }
 
 }
