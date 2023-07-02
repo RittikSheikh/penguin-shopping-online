@@ -2,34 +2,40 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav-img{
+.nav-img {
     width: 300px;
 }
-.nav-img img{
+
+.nav-img img {
     height: 30px;
 }
 
-@media screen and (max-width: 500px) {
-    .nav-img{
-        width: 200px;
-    }
-    .nav-img img{
-        height: 25px;
-    }
-}
 
-.header a{
+.header a {
     color: #3C3C3C;
     font-weight: 500;
 }
 
-.header-list ul li a {
+.header ul li a {
     color: #3C3C3C;
     font-weight: 500;
 }
 
-.header-img{
+.header ul li{
+    margin-right: 55px;
+}
+
+.header-img {
     width: 507px;
+}
+
+.header{
+    background: #FFF9F4;
+}
+
+.hero{
+    background: #FFF9F4;
+    padding: 100px 80px;
 }
 
 .hero h2 {
@@ -37,9 +43,43 @@ body {
     font-size: 80px;
     font-weight: 700;
 }
-.color-text{
+
+.color-text {
     color: #FA804C;
 }
-.hero p{
+
+.hero img {
+    width: 500px;
+}
+
+.hero p {
     width: 357px;
+}
+
+.hero-btn {
+    width: 170px;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav-img {
+        width: 200px;
+    }
+
+    .nav-img img {
+        height: 25px;
+    }
+
+    .hero{
+        padding: 80px 10px;
+    }
+
+    .hero h2 {
+        font-size: 44px;
+    }
+
 }
