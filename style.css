@@ -91,8 +91,8 @@ body {
 }
 
 .main-col {
-    width: 370px;
-    height: 540px;
+    width: 30%;
+    padding: 20px;
 }
 
 .main-col h5 {
@@ -120,9 +120,7 @@ body {
 .img-bg {
     background-color: #F1F1F1;
     border-radius: 20px;
-    width: 310px;
-    height: 310px;
-    margin: 20px;
+    height: 350px;
 }
 
 .cart-main img {
@@ -145,7 +143,7 @@ body {
     width: 75%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) and (min-width: 300px) {
 
     .nav-img {
         width: 200px;
@@ -162,6 +160,13 @@ body {
     .hero h2 {
         font-size: 44px;
     }
+    .main-col{
+        width: 100%;
+    }
+
+    .img-bg{
+        height: 350px;
+    }
 
     .shoes-container h2 {
         font-size: 34px;
@@ -174,4 +179,16 @@ body {
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 1007px) and (min-width: 600px) {
+    .main-col{
+        width: 100%;
+    }
+    .img-bg{
+        height: 600px;
+    }
+    .col-cart-child{
+        width: 100%;
+    }
 }
