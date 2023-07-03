@@ -8,5 +8,5 @@ Html5
 Css3
 Bootstrap5
 ```
-[website](https://rittiksheikh.github.io/penguin-shopping-online/)
+[Website Link](https://rittiksheikh.github.io/penguin-shopping-online/)
 
