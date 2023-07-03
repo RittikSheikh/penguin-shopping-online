@@ -125,6 +125,26 @@ body {
     margin: 20px;
 }
 
+.cart-main img {
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+}
+
+.cart-main h5 {
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cart-main p{
+    width: 275px;
+}
+
+.col-cart-child{
+    width: 75%;
+}
+
 @media screen and (max-width: 500px) {
 
     .nav-img {
@@ -145,6 +165,13 @@ body {
 
     .shoes-container h2 {
         font-size: 34px;
+    }
+    .col-cart-parent{
+        row-gap: 50px;
+    }
+
+    .col-cart-child{
+        width: 100%;
     }
 
 }
