@@ -39,10 +39,10 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#products">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us</a>
@@ -137,7 +137,7 @@
     <!-- shoes section ends -->
 
     <!-- formal shoes start here -->
-    <section class="container ">
+    <section id="products" class="container">
       <div class="shoes-container">
         <h2>FORMAL SHOES</h2>
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 p-2 gap-5 justify-content-center justify-content-md-start">
@@ -190,7 +190,7 @@
 
     <!-- cart before footer starts here -->
 
-    <section class="container">
+    <section id="about" class="container">
       <div class="col-cart-parent row row-cols-1 row-cols-md-1 row-cols-lg-2 gap-5 gap-lg-0 d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center my-5">
 
         <div class=" col cart-main">
@@ -234,7 +234,14 @@
 
   </main>
 
-    <!-- hero section ends here
+  <footer class="container">
+    <div class="footer-div d-flex flex-column flex-lg-row gap-5 justify-content-between">
+      <a class="navbar-brand nav-img" href="#">
+        <img class="img-fluid" src="./icons/Logo.png" alt="">
+      </a>
+      <p><span class="text-danger">penguin-fashion</span> &copy;Copyright all right reserved 2023</p>
+    </div>
+  </footer>
 
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

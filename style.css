@@ -139,8 +139,18 @@ body {
     width: 275px;
 }
 
+
 .col-cart-child{
     width: 75%;
+}
+
+
+footer{
+    background: #FFF9F4;
+}
+.footer-div{
+    margin-top: 150px;
+    padding: 100px 50px;
 }
 
 @media screen and (max-width: 600px) and (min-width: 300px) {
@@ -178,7 +188,9 @@ body {
     .col-cart-child{
         width: 100%;
     }
-
+    .footer-div{
+        padding: 80px 20px;
+    }
 }
 
 @media screen and (max-width: 1007px) and (min-width: 600px) {
